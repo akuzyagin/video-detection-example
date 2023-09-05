@@ -1,0 +1,16 @@
+quarkus:
+  http:
+    port: 9011
+  log:
+    console:
+      enable: true
+      level: DEBUG
+  native:
+    container-build: false
+
+model:
+  path: model/yolov5x6.torchscript.zip
+  name: yolov5x6.torchscript
+
+video:
+  path: video/0.avi

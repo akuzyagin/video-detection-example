@@ -1,4 +1,5 @@
-import io.quarkus.runtime.Startup;
+package service;
+
 import org.opencv.videoio.VideoCapture;
 import org.opencv.videoio.Videoio;
 import org.slf4j.Logger;
@@ -6,7 +7,6 @@ import org.slf4j.LoggerFactory;
 
 import javax.inject.Singleton;
 
-@Startup
 @Singleton
 public class OpenCvService {
 
